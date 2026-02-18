@@ -89,19 +89,7 @@ sns.boxplot(x='Primary_Device', y='Avg_Daily_Screen_Time_hr', hue='Urban_or_Rura
 plt.xticks(rotation=30)
 plt.title("Screen Time by Device and Location")
 plt.show()
-# Teen boys using mobiles show highest screen exposure (INSIGHT EXTRACTION)
-bins = [5, 8, 12, 16]
-labels = ['Young Kids', 'Pre-Teens', 'Teenagers']
 
-df['Age_Band'] = pd.cut(df['Age'], bins=bins, labels=labels)
-sns.boxplot(x='Age_Band', y='Avg_Daily_Screen_Time_hr', hue='Gender', data=df)
-plt.title("Screen Time by Age Group and Gender")
-plt.show()
-
-## OUTLIER DETECTION
-
-sns.boxplot(y=df['Avg_Daily_Screen_Time_hr'])
-plt.show()
 
 
 
