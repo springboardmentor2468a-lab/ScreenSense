@@ -17,3 +17,15 @@ The dataset was loaded using pandas in Jupyter Notebook. The CSV file was succes
 - Some missing values are present in the dataset.
 - Missing data was preserved during initial exploration to avoid bias.
 - The dataset is suitable for further preprocessing and visualization in upcoming weeks.
+
+## Tools Used
+- Python  
+- Jupyter Notebook  
+- GitHub
+
+## Libraries Used
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn
+- plotly
