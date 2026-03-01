@@ -1,0 +1,14 @@
+ScreenSense
+ScreenSense - Week 1 Task Task Overview Performed Exploratory Data Analysis (EDA) on the Indian_Kids_Screen_Time dataset.
+
+Project Statement Analyze kids’ screentime patterns to uncover trends by age, gender, location type (urban/rural), device type, day-of-week, and activity category using data visualization. The goal is to present clear, actionable insights for parents, educators, and policymakers. Tools Used *Jupyter Notebook
+
+*Python
+
+*Pandas
+
+*matplotlib
+
+*seaborn
+
+*Numpy
