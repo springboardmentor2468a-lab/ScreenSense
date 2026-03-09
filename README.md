@@ -1,3 +1,5 @@
+# Indian Kids Screen Time Analysis
+
 # Week 1: Project Initialization and Dataset Setup
 
 ## Define Goals and Workflow
@@ -29,3 +31,17 @@ The dataset was loaded using pandas in Jupyter Notebook. The CSV file was succes
 - matplotlib  
 - seaborn
 - plotly
+
+# Week 2: Feature engineering and derived columns
+
+# Week 3: Univariate and bivariate visual analysis
+
+# Week 4: Device / Activity and Weekday–Weekend Analysis
+
+## Objective
+Analyze device usage patterns, digital activity balance, and screen time differences between weekdays and weekends to identify **peak usage cohorts** among children.
+
+---
+
+## Peak Usage Cohorts – Key Observations
+
