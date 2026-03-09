@@ -41,7 +41,5 @@ The dataset was loaded using pandas in Jupyter Notebook. The CSV file was succes
 ## Objective
 Analyze device usage patterns, digital activity balance, and screen time differences between weekdays and weekends to identify **peak usage cohorts** among children.
 
----
-
 ## Peak Usage Cohorts – Key Observations
 
