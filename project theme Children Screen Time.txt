@@ -1,0 +1,300 @@
+ project theme: Children Screen Time Behavior Analysis (ScreenSense)
+
+Overall Dashboard Structure
+create 3 pages.
+
+Pages 	Purpose
+Page 1	Overview of Screen Usage
+Page 2	Demographic & Segment Analysis
+Page 3	Cohort & Behavioral Insights
+
+Each page is having filters:
+
+Global Filters:
+Age Band
+Gender
+Urban / Rural
+Device Type
+
+PAGE 1 — Screen Usage Overview
+
+Goal: Introducing the dataset and overall screen behavior
+
+Title:
+Children Screen Time Overview Dashboard
+
+Visuals to include:
+
+1. KPI Cards 
+Show key metrics.
+
+Examples:
+Average Daily Screen Time
+% Exceeding Recommended Limit
+Most Used Device
+Most Common Age Band
+
+Example titles:
+
+Average Screen Time
+Exceeded Screen Limit %
+Most Used Device
+Average Educational Ratio
+
+These give instant understanding.
+
+2. Screen Time Distribution
+Chart:
+
+Histogram
+
+Purpose:
+Show how screen time is distributed across children.
+
+Chart:
+
+Bar chart or donut chart
+
+Purpose:
+
+Show which devices children use the most.
+
+Insight expected:
+
+Mobile devices dominate usage.
+
+4. Age Band Distribution
+
+Chart:
+
+Bar chart
+
+Purpose:
+
+Show dataset composition.
+
+Page 1 Story
+
+The overview page introduces the dataset and highlights overall screen usage behavior. It shows the distribution of screen time, device usage patterns, and demographic composition of the dataset.
+
+PAGE 2 — Demographic & Segment Analysis
+
+Goal:
+
+Understand how screen behavior differs across groups.
+
+Title:
+
+Screen Behavior by Demographic Segments
+
+1. Screen Time by Age Band
+
+Chart:
+
+Box Plot or Bar Chart
+
+Expected Insight:
+
+Screen time increases with age.
+
+2. Screen Time by Gender
+
+Chart:
+
+Bar Chart
+
+Question:
+
+Do boys or girls use screens more?
+
+Expected Insight:
+
+Small difference.
+
+3. Screen Time by Location
+
+Chart:
+
+Box Plot or Bar Chart
+
+Question:
+
+Do urban children have higher screen exposure?
+
+Expected Insight:
+
+Urban slightly higher.
+
+4. Device Mix by Demographics
+
+Chart:
+
+Stacked Bar Chart
+
+Example:
+
+Age Band × Device Type
+
+Question:
+
+Which devices are preferred by different age groups?
+
+Expected Insight:
+
+Older children → mobile usage.
+
+Page 2 Story
+This page explores demographic differences in screen usage. It reveals how screen time patterns vary across age groups, genders, and location types, helping identify which demographic segments show higher digital engagement.
+
+PAGE 3 — Cohort & Behavioral Insights
+
+Goal:
+
+Identify high-risk cohorts and behavioral drivers.
+
+Title:
+
+Cohort & Behavioral Insights
+
+1. Cohort Matrix
+
+Chart:
+
+Heatmap
+
+Age Band × Device Type
+
+Purpose:
+
+Identify high screen time cohorts.
+
+Expected insight:
+
+Older children + mobile = highest usage
+2. Usage Level Composition
+
+Chart:
+
+Stacked bar chart
+
+Age Band × Usage Level
+
+Purpose:
+
+Show how usage levels vary by age.
+
+Insight:
+
+Older groups → more high usage.
+
+3. Behavioral Driver Chart
+
+Chart:
+
+Scatter Plot
+
+Educational Ratio vs Screen Time
+
+Purpose:
+
+Understand if recreational usage drives screen time.
+
+Insight:
+
+More recreational usage → higher screen time.
+
+4. Exceeded Screen Limit
+
+Chart:
+
+Bar chart or heatmap.
+
+Device Type × Exceeded Limit
+
+Purpose:
+
+Identify risk patterns.
+
+Insight:
+
+Portable devices exceed limits more.
+
+Page 3 Story
+
+This page identifies high-risk screen usage cohorts and explores behavioral drivers. It shows how device type, age group, and recreational usage influence screen exposure levels.
+
+Filters You Must Add
+
+In Tableau / Power BI:
+
+Global filters:
+
+Age Band
+Gender
+Urban_or_Rural
+Primary_Device
+Usage_Level
+
+These allow interactive exploration.
+
+Example:
+
+User selects:
+
+Age Band = 13–15
+Gender = Male
+
+Dashboard updates automatically.
+
+Design Rules (Professional Analysts Follow)
+
+Always ensure:
+
+Clear Titles
+
+Example:
+
+Bad:
+
+Chart 1
+
+Good:
+
+Average Screen Time by Age Group
+Axis Labels
+
+Example:
+
+X-axis: Age Band
+Y-axis: Average Screen Time (Hours)
+Legends
+
+Example:
+
+Device Type
+Gender
+Usage Level
+Color Consistency
+
+Example:
+
+Blue → Male
+Red → Female
+Green → Urban
+Gray → Rural
+Final Storyline
+
+
+
+
+
+
+
+
+#################################################
+
+
+
+
+
+  
