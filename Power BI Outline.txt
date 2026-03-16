@@ -1,0 +1,127 @@
+Power BI Page Structure
+
+1️⃣ Data Overview
+2️⃣ Univariate Analysis
+3️⃣ Bivariate Analysis
+4️⃣ Cohort Analysis
+5️⃣ Segment Analysis
+6️⃣ Health Impact Analysis
+7️⃣ Final Insights Dashboard
+
+
+1.Overview DashBoard
+
+ ---------------------------------------------------------
+|  Total Kids   | Avg Screen Time | % Exceed Limit | Avg Educational Time |
+|     (Card)    |      (Card)     |      (Card)    |        (Card)        |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Gender Distribution (Donut Chart) | Urban vs Rural (Pie) |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+|           Age Band Distribution (Bar Chart)             |
+ ---------------------------------------------------------
+
+
+
+2.Univariate Analysis Page
+
+
+ ---------------------------------------------------------
+| Screen Time Distribution (Histogram)                   |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Screen Time Outliers (Box Plot)                        |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Primary Device Usage (Bar Chart) | Health Risk Level   |
+|                                  |    (Bar Chart)      |
+ ---------------------------------------------------------
+
+3.Bivariate Analysis Page
+
+ ---------------------------------------------------------
+| Age Band vs Avg Screen Time (Clustered Bar Chart)     |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Device Type vs Screen Time Category (Stacked Bar)     |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Educational Time vs Recreational Time (Scatter Plot)  |
+ ---------------------------------------------------------
+
+
+4.Cohort Analysis Page
+
+ ---------------------------------------------------------
+|      Age Band × Device Type (Heatmap)                  |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Age Band vs Health Risk Level (Stacked Column Chart)  |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Device Usage by Age Group (Tree Map)                  |
+ ---------------------------------------------------------
+
+
+5.Segment Analysis Page
+
+ ---------------------------------------------------------
+| Urban vs Rural Screen Time Category (100% Stacked)    |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Gender vs Avg Screen Time (Clustered Bar Chart)       |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Device Type × Health Risk Level (Heatmap)             |
+ ---------------------------------------------------------
+
+6.Health Impact Analysis
+
+ ---------------------------------------------------------
+| Screen Time Category vs Health Impacts (Bar Chart)    |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Screen Time vs Health Risk Level (Scatter Plot)       |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Age Band vs Health Risk Level (Stacked Column)        |
+ ---------------------------------------------------------
+
+7.Final Insights Dashboard
+
+ ---------------------------------------------------------
+| Highest Screen Time Age | Most Used Device | % Risk   |
+|        (Card)           |     (Card)       |  (Card)  |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Key Findings (Text Insights Box)                      |
+ ---------------------------------------------------------
+
+ ---------------------------------------------------------
+| Most Important Visualization (Highlighted Chart)      |
+ ---------------------------------------------------------
+
+
+Slicers at every leftside of the page
+
+Filters Panel
+-------------
+Age Band
+Gender
+Device Type
+Urban / Rural
+Screen Time Category
