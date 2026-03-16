@@ -1,127 +1,188 @@
-ScreenSense: Kids’ Screen Time Visualization Dashboard
+# ScreenSense: Kids’ Screen Time Visualization Dashboard
 
-Project Objective
-Analyze children’s screen time behavior to identify patterns across age, gender, device usage, location type, and activity purpose, and present insights through an interactive Power BI dashboard for parents, educators, and policymakers.
+## Project Objective
+Analyze children’s screen time behavior to identify patterns across **age, gender, device usage, location type, and activity purpose**, and present insights through an **interactive Power BI dashboard** for parents, educators, and policymakers.
 
-Dashboard Structure
+---
 
-Total Pages: 4
-Executive Overview
-Demographic Insights
-Device & Usage Behavior
-Health & Risk Impact
+# Dashboard Structure
+
+**Total Pages:** 4
+
+1. Executive Overview  
+2. Demographic Insights  
+3. Device & Usage Behavior  
+4. Health & Risk Impact  
+
 Each page answers a specific analytical question.
 
-Page 1: Executive Overview
-Purpose:
-Provide a quick high-level summary of the dataset and highlight key screen time patterns.
+---
 
-KPI Cards
+# Page 1: Executive Overview
 
-Total Children in Dataset
-Average Daily Screen Time
-Percentage of Kids Exceeding Recommended Screen Time
-High Engagement Risk Users
-Kids Experiencing Health Impacts
+## Purpose
+Provide a quick **high-level summary** of the dataset and highlight key screen time patterns.
 
-Visualizations
+## KPI Cards
+- Total Children in Dataset
+- Average Daily Screen Time
+- Percentage of Kids Exceeding Recommended Screen Time
+- High Engagement Risk Users
+- Kids Experiencing Health Impacts
 
-Scatter Plot
-Age vs Average Daily Screen Time
+## Visualizations
+
+### Scatter Plot
+**Age vs Average Daily Screen Time**  
 Shows how screen usage varies across different ages.
-Line Chart
-Average Screen Time by Age Band
+
+### Line Chart
+**Average Screen Time by Age Band**  
 Displays screen time trend across age groups.
-Bar Chart
-Average Screen Time by Device Type
+
+### Bar Chart
+**Average Screen Time by Device Type**  
 Identifies which device contributes most to screen usage.
-Treemap
-Device Usage Distribution
+
+### Treemap
+**Device Usage Distribution**  
 Shows how device usage is distributed among children.
-Donut Chart
-Screen Time Level Distribution
+
+### Donut Chart
+**Screen Time Level Distribution**  
 Shows proportion of children in Low, Moderate, and High screen time categories.
 
-Page 2: Demographic Insights
-Purpose:
-Understand how demographic factors influence screen time behavior.
+---
 
-Visualizations
-Clustered Column Chart
-Average Screen Time by Gender
+# Page 2: Demographic Insights
+
+## Purpose
+Understand how **demographic factors influence screen time behavior**.
+
+## Visualizations
+
+### Clustered Column Chart
+**Average Screen Time by Gender**  
 Compares screen usage between boys and girls.
 
-Stacked Bar Chart
-Urban vs Rural Distribution by Gender
+### Stacked Bar Chart
+**Urban vs Rural Distribution by Gender**  
 Shows demographic distribution across locations.
-Line Chart
-Average Screen Time by Age
+
+### Line Chart
+**Average Screen Time by Age**  
 Identifies age-wise screen time progression.
-Stacked Column Chart
-Age Band vs Engagement Risk Level
+
+### Stacked Column Chart
+**Age Band vs Engagement Risk Level**  
 Highlights which age groups face higher engagement risks.
-Donut Chart
-Gender Distribution of Children
+
+### Donut Chart
+**Gender Distribution of Children**  
 Provides overall gender composition of the dataset.
 
-Page 3: Device & Usage Behavior
-Purpose:
-Analyze how children access devices and the purpose of screen usage.
+---
 
-Visualizations
+# Page 3: Device & Usage Behavior
 
-Horizontal Bar Chart
-Average Screen Time by Primary Device
+## Purpose
+Analyze how children **access devices and the purpose of screen usage**.
+
+## Visualizations
+
+### Horizontal Bar Chart
+**Average Screen Time by Primary Device**  
 Identifies the most time-consuming device.
-Donut Chart
-Device Access Type Distribution
+
+### Donut Chart
+**Device Access Type Distribution**  
 Shows how kids access devices (shared, personal, etc.).
-Matrix / Heatmap
-Device Type vs Usage Purpose
+
+### Matrix / Heatmap
+**Device Type vs Usage Purpose**  
 Shows relationship between device types and activity purposes.
 
-Scatter Plot
-Educational vs Recreational Ratio vs Screen Time
+### Scatter Plot
+**Educational vs Recreational Ratio vs Screen Time**  
 Analyzes whether educational usage reduces overall screen exposure.
-Stacked Bar Chart
-Usage Purpose by Device Type
+
+### Stacked Bar Chart
+**Usage Purpose by Device Type**  
 Shows which devices are used more for education vs recreation.
 
-Page 4: Health & Risk Impact
-Purpose:
-Identify potential health and engagement risks related to screen time.
+---
 
-KPI Cards
+# Page 4: Health & Risk Impact
 
-Kids with Health Impacts
-High Engagement Risk Users
-Percentage Exceeding Screen Limit
+## Purpose
+Identify potential **health and engagement risks related to screen time**.
 
-Visualizations
+## KPI Cards
+- Kids with Health Impacts
+- High Engagement Risk Users
+- Percentage Exceeding Screen Limit
 
-Donut Chart
-Health Impact Distribution
+## Visualizations
+
+### Donut Chart
+**Health Impact Distribution**  
 Displays common health issues linked with screen time.
-Clustered Column Chart
-Screen Time Level vs Health Impact
+
+### Clustered Column Chart
+**Screen Time Level vs Health Impact**  
 Shows how health issues increase with screen time.
-Funnel Chart
-Engagement Risk Level Distribution
+
+### Funnel Chart
+**Engagement Risk Level Distribution**  
 Highlights proportion of low, medium, and high risk users.
-100% Stacked Column Chart
-Screen Time Level vs Engagement Risk
+
+### 100% Stacked Column Chart
+**Screen Time Level vs Engagement Risk**  
 Shows correlation between screen time intensity and engagement risk.
-Bar Chart
-Average Screen Time by Health Impact Category
+
+### Bar Chart
+**Average Screen Time by Health Impact Category**  
 Analyzes which health issues are linked to higher screen time.
 
-Key Insights Expected
+---
+
+# Dashboard Features
+
+The dashboard includes the following **interactive features**:
+
+- KPI summary cards for quick insights
+- Interactive slicers for filtering data
+- Multiple visualizations for comparative analysis
+- Page navigation buttons
+- Clean professional layout
+- Insight-driven visuals suitable for stakeholders
+
+---
+
+# Key Insights Expected
 
 The dashboard helps answer questions such as:
 
-Which age group spends the most time on screens?
-Do boys or girls have higher screen usage?
-Which devices contribute most to screen time?
-How does screen time differ between urban and rural children?
-Is high screen time associated with health issues?
-Which children face higher engagement risk?
+- Which age group spends the most time on screens?
+- Do boys or girls have higher screen usage?
+- Which devices contribute most to screen time?
+- How does screen time differ between urban and rural children?
+- Is high screen time associated with health issues?
+- Which children face higher engagement risk?
+
+---
+
+# Tools Used
+
+- **Power BI**
+- **Excel / CSV Dataset**
+- **Data Visualization Techniques**
+- **Dashboard Design Principles**
+
+---
+
+# Author
+
+**Project Title:** ScreenSense  
+**Type:** Data Visualization Dashboard  
+**Tool:** Power BI
