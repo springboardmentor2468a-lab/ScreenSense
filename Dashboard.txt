@@ -1,0 +1,35 @@
+Power bi Dashboard
+step -1
+transform data
+1.1 removing duplicate rows
+1.2 replacing none with no health issue in health_impacts columns
+1.3 adding columns such as age band, usage_purpose_type, day_type, device_share, device_nature.
+step -2
+1.KPI/card visual
+Avg_Daily_Screen_Time_hr → Average
+Age → Average
+2.Column Chart
+Avg_Daily_Screen_Time_hr
+3.Clustered Bar Chart
+Age_Band
+Avg_Daily_Screen_Time_hr → Average
+4.Pie Chart (Device Usage)
+Primary_Device
+5.Donut Chart
+Usage_Purpose_Type
+6.Stacked Bar Chart
+Age_Band
+Legend : Usage_Purpose_Type
+7.Stacked Column Chart
+Axis : Primary_Device
+Legend : Usage_Purpose_Type
+8.Box Plot (Screen Time vs Health Impacts)
+Axis : Health_Impacts
+Values : Avg_Daily_Screen_Time_hr
+9.Axis: Heatmap (Age Band × Device Type)
+Rows : Age_Band
+Columns : Primary_Device
+Values : Count
+10.Clustered Bar (Gender vs Screen Time)
+Axis : Gender
+Values : Avg_Daily_Screen_Time_hr → Average
