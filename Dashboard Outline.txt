@@ -1,0 +1,94 @@
+PAGE 1 — Overview
+1. Bar Chart — Screen Time By Location
+
+X axis → Average Daily Screen Time (hours)
+Y axis → Location (Urban / Rural)
+
+2. Clustered Bar Chart — Average Daily Screen Time By Age Group and Gender
+
+X axis → Average Daily Screen Time (hours)
+Y axis → Age Group
+Legend → Gender (Male / Female)
+
+3. Clustered Bar Chart — Screen Time Category Distribution
+
+X axis → Count of Kids
+Y axis → Screen Time Category (Low / Medium / High)
+
+4. Card — Total Average Daily Screen Time
+
+Single number → Sum of avg daily screen time in hours
+
+5. Card — Educational to Recreational Ratio
+
+Single number → Ratio value
+
+6. Card — Health Issue %
+
+Single number → Percentage of kids with health issues
+
+7. Slicers
+
+Age Group → filter by age
+Gender → filter by male or female
+Primary Device → filter by device type
+Urban or Rural → filter by location
+
+
+PAGE 2 — Device and Time Usage
+1. Donut Chart — Device Share
+
+Legend → Primary Device (Mobile / Tablet / TV etc)
+Values → Count of kids per device
+
+2. Clustered Column Chart — Avg Screen Time by Device and Age Group
+
+X axis → Age Group
+Y axis → Average Daily Screen Time (hours)
+Legend → Primary Device
+
+3. Clustered Bar Chart — Weekday vs Weekend by Age Group
+
+X axis → Average Daily Screen Time (hours)
+Y axis → Age Group
+Legend → Weekday or Weekend
+
+4. Card — Weekday Average
+
+Single number → Average screen time on weekdays
+
+5. Card — Weekend Average
+
+Single number → Average screen time on weekends
+
+6. Slicers
+
+Primary Device → filter by device
+Gender → filter by male or female
+Weekday Flag → filter by weekday or weekend
+
+
+PAGE 3 — Health Impact
+1. Bar Chart — Health Status by Screen Time Category
+
+X axis → Count of Kids
+Y axis → Screen Time Category (Low / Medium / High)
+Legend → Health Status (Good / Fair / Poor)
+
+2. Clustered Bar Chart — Average Health Issue by Age Group and Gender
+
+X axis → Sum of Health Issue Count
+Y axis → Age Group
+Legend → Gender (Male / Female)
+
+3. Scatter Chart — Screen Time vs Educational Ratio
+
+X axis → Average Daily Screen Time (hours)
+Y axis → Educational to Recreational Ratio
+Legend → Health Status (Good / Fair / Poor)
+
+4. Slicers
+
+Health Status → filter by good,  poor
+Exceeded Recommended Limit → filter by yes or no
+Age Group → filter by age
