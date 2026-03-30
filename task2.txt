@@ -1,0 +1,109 @@
+Numerical Columns
+
+Age
+Avg_Daily_Screen_Time_hr
+
+Categorical Columns
+
+Gender
+Primary_Device
+Activity
+Day_Type (Weekday / Weekend)
+
+UNIVARIATE ANALYSIS (Single Column)
+
+A) Single Numerical Column
+
+Example: Avg_Daily_Screen_Time_hr
+
+Plots Used:
+
+Histogram
+
+Shows distribution of screen time
+
+Helps identify skewness & common usage range
+
+Box Plot
+
+Shows median, quartiles, outliers
+
+Insight Example:
+
+Most kids spend between 2–4 hours/day, with a few high-usage outliers.
+
+B) Single Categorical Column
+
+Example: Primary_Device
+Plots Used:
+
+Bar Chart
+
+Count Plot
+
+Pie Chart (optional)
+
+Insight Example:
+
+Mobile is the most commonly used device among children.
+
+BIVARIATE ANALYSIS (Two Columns)
+
+C) Numerical vs Numerical
+Example:
+
+Age vs Avg_Daily_Screen_Time_hr
+
+Plot Used:
+
+Scatter Plot
+
+Why:
+
+Shows relationship or trend between two numbers
+
+Insight Example:
+
+Screen time slightly increases as age increases.
+
+D) Numerical vs Categorical
+
+Example: Avg_Daily_Screen_Time_hr vs Gender
+
+Plots Used:
+
+Box Plot
+
+Violin Plot
+
+Insight Example:
+
+Median screen time differs slightly between genders.
+
+E) Categorical vs Categorical
+
+Example: Gender vs Primary_Device
+
+Plots Used:
+
+Grouped Bar Chart
+
+Stacked Bar Chart
+
+Heatmap (using Crosstab)
+
+Insight Example:
+
+Both genders prefer mobile devices, but TV usage varies.
+
+🔁 Can Univariate Become Bivariate?
+
+✔ YES
+
+Example:
+
+Start with univariate: Avg_Daily_Screen_Time_hr
+
+Add Gender → becomes bivariate
+
+Same column, deeper insight.
