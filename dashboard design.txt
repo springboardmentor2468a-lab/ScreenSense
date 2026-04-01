@@ -1,0 +1,60 @@
+Dashboard Layouts – ScreenSense Project
+1. Demographics & Background Dashboard
+Age Distribution (Grid) – Ages displayed across a grid.
+
+Primary Device (Selection panel) – Options for Laptop, Smartphone, Tablet, TV.
+
+Gender Ratio (Metric).
+
+Count of Common Primary Device (Metric).
+
+Urban vs Rural Split (Pie chart).
+
+Educational vs Screen Ratio (Bar chart).
+
+Age Distribution by Gender (Stacked bar chart).
+
+Educational Ratio by Age Group (Vertical bar chart).
+
+2. Screen Time Patterns Dashboard
+Average Daily Screen Time by Age (Scatter plot).
+
+Screen Time vs Educational Ratio (Scatter plot).
+
+Average Daily Screen Time (Metric).
+
+Peak Daily Screen Time (Metric).
+
+Screen Time by Gender (Bar chart).
+
+Screen Time Distribution (Line chart).
+
+Screen Time by Primary Device (Bar chart).
+
+3. Exceeding Recommended Limits Dashboard
+Exceeded Limit Distribution by Gender (Donut chart).
+
+Count of Exceeded Recommended Limit (Metric).
+
+Average Exceeded Limit by Age (Metric).
+
+Exceeded Limit by Urban vs Rural (Bar chart).
+
+Exceeded Limit by Age Group (Bar chart).
+
+Exceeded Limit Trend by Age (Scatter plot).
+
+Exceeded Limit by Primary Device (Gauge chart).
+
+4. Health & Educational Impacts Dashboard
+Health Impacts by Age (Vertical bar chart).
+
+Health Impacts by Urban vs Rural (Pie chart).
+
+Primary Device by Health Impacts (Bar chart).
+
+Health Impacts by Gender (Area chart).
+
+Average Health Impact Score (Metric).
+
+Health Impacts by Primary Device (Metric).
