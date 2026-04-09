@@ -1,0 +1,261 @@
+ScreenSense: Kids’ Screen Time Analysis (Power BI Dashboard Outline)
+
+Slide 1 — Title & Introduction
+
+Title:
+ScreenSense: Kids’ Screen Time Analysis
+
+Dataset:
+Indian Kids Screen Time Dataset
+Total Records: ~9,700+ children
+Age Range: 8–18 years
+
+Objective:
+Analyze how children use screens, which devices they prefer, and how screen usage relates to health impacts.
+
+Goal:
+Identify high-risk screen-time patterns and provide insights for parents, educators, and policymakers.
+
+Slide 2 — The Problem (Why This Matters)
+
+Start with a thought-provoking question
+
+Question:
+"How many hours per day do you think children spend on screens?"
+
+Global recommendation:
+World health organizations suggest 1–2 hours per day for children.
+
+Dataset insight:
+Average screen time in our data is around 4+ hours per day.
+
+That is more than double the recommended limit.
+
+This raises concerns about health impacts, learning balance, and digital habits.
+
+Slide 3 — About the Dataset
+
+Show the main dataset structure
+
+Original columns:
+
+Column	Description
+Age	Age of the child
+Gender	Male / Female
+Avg_Daily_Screen_Time_hr	Average daily screen time
+Primary_Device	Main device used
+Exceeded_Recommended_Limit	Whether limit exceeded
+Educational_to_Recreational_Ratio	Learning vs entertainment usage
+Health_Impacts	Reported health issues
+Urban_or_Rural	Location type
+
+Explain preprocessing:
+
+• Cleaned missing values
+• Handled inconsistent categories
+• Engineered multiple new analytical features
+
+Slide 4 — Feature Engineering
+
+Derived features created for analysis:
+
+Age Band
+
+Child (8–10)
+Early Teen (11–13)
+Teen (14–15)
+Young Adult (16–18)
+
+Learning Heavy User
+
+Users whose educational ratio ≥ 0.5
+
+Health Risk Flag
+
+Screen time greater than 4 hours
+
+User Type
+
+Learning-Dominant vs Recreation-Dominant
+
+These features helped segment children into meaningful behavioral groups.
+
+Slide 5 — Dashboard Overview
+
+Display the Power BI dashboard screenshot
+
+Structure of dashboard:
+
+Top: KPI cards
+Left: Interactive slicers
+Bottom: Analytical charts
+
+Key filters:
+
+• Age Band
+• Gender
+• Device Type
+• Location (Urban / Rural)
+
+The dashboard allows interactive exploration of screen habits.
+
+Slide 6 — KPI Cards (Key Numbers)
+
+Highlight the headline insights
+
+Key metrics:
+
+Average Screen Time
+
+Example:
+4.2 hours per day
+
+Children Exceeding Recommended Limit
+
+Example:
+~80–85%
+
+Total Participants
+
+~9,700 children
+
+These metrics immediately show that screen overuse is widespread.
+
+Slide 7 — Screen Time by Age Band
+
+Visualization: Bar Chart
+
+Insight:
+
+Screen time increases steadily with age.
+
+Younger children spend less time, while older teens show the highest usage.
+
+Critical transition point appears around early teenage years.
+
+This stage may be important for early digital habit interventions.
+
+Slide 8 — Device Usage Distribution
+
+Visualization: Donut Chart
+
+Devices used by children:
+
+• Smartphones
+• Television
+• Laptops
+• Tablets
+
+Insight:
+
+Smartphones dominate device usage.
+
+Nearly half of children primarily use smartphones, indicating mobile devices are the main driver of screen exposure.
+
+Slide 9 — Screen Time Limit Exceedance
+
+Visualization: Clustered Column Chart
+
+Compare:
+
+Age Band vs % Exceeding Limit
+
+Insight:
+
+Even younger children exceed recommended limits.
+
+The issue is not restricted to teenagers.
+
+High exceedance rates appear across all age groups.
+
+Slide 10 — Device vs Screen Time (Cohort Analysis)
+
+Visualization: Heatmap / Matrix
+
+Rows: Age Band
+Columns: Device Type
+Values: Average Screen Time
+
+Insight:
+
+Certain combinations stand out as high-risk cohorts.
+
+Example:
+
+Older teens using laptops show very high screen usage.
+
+Heatmaps help identify which groups require targeted awareness programs.
+
+Slide 11 — Educational vs Recreational Usage
+
+Visualization: Stacked Bar Chart
+
+Compare:
+
+Age Band vs Screen Time Purpose
+
+Insight:
+
+A significant portion of screen time is recreational rather than educational.
+
+Even among older students, entertainment usage dominates.
+
+This suggests the need to encourage productive digital engagement.
+
+Slide 12 — Health Impacts of Screen Usage
+
+Visualization: Pie Chart
+
+Reported impacts include:
+
+• Eye Strain
+• Poor Sleep
+• Headaches
+• No Impact
+
+Insight:
+
+Eye strain and poor sleep are among the most commonly reported issues.
+
+This highlights the health consequences of prolonged screen exposure.
+
+Slide 13 — Key Insights Summary
+
+Major findings from the analysis:
+
+• Majority of children exceed recommended screen time limits
+• Screen time increases with age
+• Smartphones are the dominant device
+• Recreational usage outweighs educational usage
+• Several health impacts are associated with high screen exposure
+
+Slide 14 — Recommendations
+
+For Parents
+
+Monitor smartphone usage and establish screen-time boundaries early.
+
+For Schools
+
+Encourage educational screen activities and digital balance.
+
+For Policymakers
+
+Promote awareness campaigns on healthy screen habits among children.
+
+Slide 15 — Conclusion
+
+Digital technology plays a major role in children's lives.
+
+However, balanced usage is necessary to prevent health and behavioral risks.
+
+Data-driven insights like these can help guide responsible digital habits.
+
+Slide 16 — Thank You
+
+Thank you
+
+Questions?
+
+Project Repository:
+GitHub Submission Link
